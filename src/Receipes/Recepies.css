@@ -1,0 +1,90 @@
+.card-container {
+  margin: 1rem 0.5rem;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  /* border: 1px solid blue; */
+  width: 18rem;
+  cursor: pointer;
+  background-color: #fafafa;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+img {
+  width: 250px;
+  height: 250px;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.icon {
+  cursor: pointer;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.recepie-container {
+  margin-top: 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.add-icon {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+  width: 18rem;
+  cursor: pointer;
+  background-color: #fafafa;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  height: 550px;
+}
+
+.all-recepie {
+  margin-top: 2rem;
+}
+
+.recepiedetail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.receipe-details {
+  background-color: #fafafa;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.ingredient {
+  margin-right: 4px;
+}
